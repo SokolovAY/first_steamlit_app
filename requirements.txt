@@ -1,2 +1,3 @@
 # requirements.txt
+pyarrow==6.0.0
 snowflake-connector-python
