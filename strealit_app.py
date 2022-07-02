@@ -32,4 +32,4 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 streamlit.dataframe(fruityvice_normalized)
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?','Kiwi')
-streamlit.write('Thanks for adding ', fruit_choice)
+streamlit.write('Thanks for adding ', add_my_fruit)
